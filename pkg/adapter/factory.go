@@ -17,6 +17,18 @@ func CreateAdapter(exchangeID int) (Adapter, error) {
 		return binance.New(wrapper.NewWrapper()), nil
 	case consts.ExchangeIDbybitSpot:
 		return bybit.New(), nil
+	case consts.ExchangeIDMexcSpot:
+		// TODO
+		return nil, errors.New("mexc adapter not ready yet")
+	case consts.ExchangeIDKucoinSpot:
+		// TODO
+		return nil, errors.New("kucoin adapter not ready yet")
+	case consts.ExchangeIDGateSpot:
+		// TODO
+		return nil, errors.New("gate adapter not ready yet")
+	case consts.ExhcnageIDPoloniexSpot:
+		// TODO
+		return nil, errors.New("poloniex adapter not ready yet")
 	}
 }
 

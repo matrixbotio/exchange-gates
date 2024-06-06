@@ -44,8 +44,12 @@ const (
 )
 
 const (
-	ExchangeIDbinanceSpot = 1
-	ExchangeIDbybitSpot   = 2
+	ExchangeIDbinanceSpot  = 1
+	ExchangeIDbybitSpot    = 2
+	ExchangeIDMexcSpot     = 3
+	ExchangeIDKucoinSpot   = 4
+	ExchangeIDGateSpot     = 5
+	ExhcnageIDPoloniexSpot = 6
 )
 
 const (
